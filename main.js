@@ -23,7 +23,7 @@ let coordenadas = criarMalha( tela, octave, malha )
 // iniciar o campo | retornará - campo[x][y][tempo]
 let campo = criarCampo( coordenadas )
 // iniciar particulas | retornará - particulas{ pos: {x, y, z} }
-let particulas = criarParticulas( coordenadas, 1000 )
+let particulas = criarParticulas( coordenadas, 500 )
 
 
 

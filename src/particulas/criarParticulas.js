@@ -1,6 +1,6 @@
 function Particulas( x, y ) {
     let pos = { x, y }
-    let size = 2 * Math.random() + 2
+    let size = 5 * Math.random() + 2
     let life = (20 * Math.random() + 5)
     let color = `rgba(${ 255 }, ${ 100 * Math.random()  + 20}, ${ 30 }, ${ 1 * Math.random()})`
     return { pos, size, life, color }
